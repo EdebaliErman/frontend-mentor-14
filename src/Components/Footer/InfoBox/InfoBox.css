@@ -2,7 +2,7 @@
 
 @layer components {
     .InfoBox{
-        @apply w-1/2 p-12  flex flex-col justify-start items-start bg-aqua text-white gap-4 h-72
+        @apply w-1/2 p-12  flex flex-col justify-start items-start bg-aqua text-white gap-4 h-72 rounded-br-xl
     }
     .InfoBox h1{
         @apply text-xl font-semibold

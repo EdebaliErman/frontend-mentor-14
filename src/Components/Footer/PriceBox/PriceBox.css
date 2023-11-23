@@ -7,7 +7,7 @@
     }
 
     .pricebox h2 {
-        @apply text-xl
+        @apply text-xl font-medium
     }
 
     .pricebox h4 {
