@@ -1,0 +1,26 @@
+@tailwind components;
+
+@layer components {
+    .pricebox {
+        @apply bg-cyan text-white p-11 w-1/2 flex flex-col justify-center items-start gap-2
+    }
+
+    .pricebox h2 {
+        @apply text-xl
+    }
+
+    .pricebox h4 {
+        @apply text-base text-gray-200
+    }
+
+    .pricebox h4 span {
+        @apply text-3xl text-white font-bold font-karla
+    }
+
+    .pricebox h3{
+        @apply text-lg
+    }
+    .pricebox button{
+        @apply bg-brightYellow w-full p-3 font-bold rounded-lg mt-6
+    }
+}

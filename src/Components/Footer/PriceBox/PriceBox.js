@@ -2,10 +2,11 @@ import React from 'react'
 import "./PriceBox.css"
 function PriceBox() {
   return (
-    <div>
+    <div className='pricebox'>
       <h2>Monthly Subscription</h2>
-      <h3><span>$29</span> per month</h3>
+      <h4><span>$29</span> per month</h4>
       <h3>Full access for less than $1 a day </h3>
+      <button>Sing Up</button>
     </div>
   )
 }
