@@ -1,6 +1,10 @@
 @tailwind components;
 @layer components{
     footer{
-        @apply flex justify-center items-center 
+        @apply flex justify-center items-center flex-wrap 
+        md:flex-col md:w-[400px]
+        lg:flex-col lg:w-[400px]
+        sm:flex-col sm:w-[300px]
+        
     }
 }

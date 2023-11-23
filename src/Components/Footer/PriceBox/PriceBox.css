@@ -3,7 +3,10 @@
 @layer components {
     .pricebox {
         @apply bg-cyan text-white p-11 w-1/2 flex flex-col justify-center items-start gap-2 h-72
-        rounded-bl-xl
+        rounded-bl-xl 
+        md:w-full md:rounded-none
+        lg:w-full lg:rounded-none
+        
     }
 
     .pricebox h2 {
@@ -15,11 +18,13 @@
     }
 
     .pricebox h4 span {
-        @apply text-3xl text-white font-bold font-karla
+        @apply text-4xl text-white font-bold font-karla
     }
 
     .pricebox h3{
         @apply text-lg
+        sm:text-sm
+
     }
     .pricebox button{
         @apply bg-brightYellow w-full p-3 font-bold rounded-lg mt-6

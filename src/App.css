@@ -1,6 +1,9 @@
 @tailwind components;
 @layer components{
   .App{
-    @apply w-[700px] h-[400px] 
+    @apply 2xl:w-[700px] 2xl:h-[400px] flex justify-center items-center flex-col 
+    md:flex-wrap md:w-max md:h-max md:mt-36
+    lg:mt-36
+    sm:mt-96
   }
 }

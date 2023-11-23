@@ -5,14 +5,18 @@
         @apply bg-white text-left 
         flex justify-start items-start flex-col 
         p-8 gap-4 rounded-t-xl
+        lg:w-[400px]
+        sm:w-[300px]
     }
 
     header h1 {
         @apply text-cyan text-2xl font-extrabold
+        sm:text-xl
     }
 
     header h2 {
         @apply text-brightYellow text-xl font-bold
+        sm:text-lg
     }
 
     header h3 {
