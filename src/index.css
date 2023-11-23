@@ -5,6 +5,9 @@
 
 @layer base{
   html{
-    @apply bg-background font-karla
+    @apply bg-background font-karla w-full h-full
+  }
+  body{
+    @apply flex justify-center items-center w-full h-full
   }
 }

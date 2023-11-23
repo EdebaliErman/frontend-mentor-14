@@ -2,6 +2,12 @@
 
 @layer components {
     .InfoBox{
-        @apply w-1/2
+        @apply w-1/2 p-12  flex flex-col justify-start items-start bg-aqua text-white gap-4 h-72
+    }
+    .InfoBox h1{
+        @apply text-xl font-semibold
+    }
+    .InfoBox h2{
+        @apply text-base text-gray-100
     }
 }

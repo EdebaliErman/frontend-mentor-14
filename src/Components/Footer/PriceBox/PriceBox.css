@@ -2,7 +2,8 @@
 
 @layer components {
     .pricebox {
-        @apply bg-cyan text-white p-11 w-1/2 flex flex-col justify-center items-start gap-2
+        @apply bg-cyan text-white p-11 w-1/2 flex flex-col justify-center items-start gap-2 h-72
+        rounded-bl-xl
     }
 
     .pricebox h2 {
