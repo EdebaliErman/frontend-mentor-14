@@ -6,7 +6,7 @@ function PriceBox() {
       <h2>Monthly Subscription</h2>
       <h4><span>$29</span> per month</h4>
       <h3>Full access for less than $1 a day </h3>
-      <button>Sing Up</button>
+      <button>Sign Up</button>
     </div>
   )
 }
