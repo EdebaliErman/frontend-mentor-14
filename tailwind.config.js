@@ -17,6 +17,17 @@ module.exports = {
 
       'sm': { 'max': '639px' },
       // => @media (max-width: 639px) { ... }
+    },
+    extend:{
+      colors:{
+       cyan:"#2ab2af",
+       brightYellow:"#c0df34",
+       background:"#e5eff5",
+       text:"#98a6bd"
+      },
+      fontFamily:{
+        'karla': ['Karla', 'sans-serif']
+      }
     }
   },
   plugins: [],
